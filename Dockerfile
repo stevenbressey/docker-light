@@ -1,1 +1,3 @@
-FROM registry.artifakt.io/php:7.4-apache
+FROM alpine:latest
+
+ADD clamav-eicar-test.txt /clamav-eicar-test.txt
